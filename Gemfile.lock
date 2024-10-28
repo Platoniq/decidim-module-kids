@@ -3,26 +3,6 @@ GIT
   revision: 406fc0341a04344d5cc98ea98920487276b96b39
   branch: release/0.29-stable
   specs:
-    decidim (0.29.1)
-      decidim-accountability (= 0.29.1)
-      decidim-admin (= 0.29.1)
-      decidim-api (= 0.29.1)
-      decidim-assemblies (= 0.29.1)
-      decidim-blogs (= 0.29.1)
-      decidim-budgets (= 0.29.1)
-      decidim-comments (= 0.29.1)
-      decidim-core (= 0.29.1)
-      decidim-debates (= 0.29.1)
-      decidim-forms (= 0.29.1)
-      decidim-generators (= 0.29.1)
-      decidim-meetings (= 0.29.1)
-      decidim-pages (= 0.29.1)
-      decidim-participatory_processes (= 0.29.1)
-      decidim-proposals (= 0.29.1)
-      decidim-sortitions (= 0.29.1)
-      decidim-surveys (= 0.29.1)
-      decidim-system (= 0.29.1)
-      decidim-verifications (= 0.29.1)
     decidim-accountability (0.29.1)
       decidim-comments (= 0.29.1)
       decidim-core (= 0.29.1)
@@ -173,6 +153,32 @@ GIT
       devise_invitable (~> 2.0, >= 2.0.9)
     decidim-verifications (0.29.1)
       decidim-core (= 0.29.1)
+
+GIT
+  remote: https://github.com/platoniq/decidim
+  revision: b13a6d72c44f20bf13df89de248554d0b9794443
+  branch: fix/generator_set_cache_classes_with_env
+  specs:
+    decidim (0.29.1)
+      decidim-accountability (= 0.29.1)
+      decidim-admin (= 0.29.1)
+      decidim-api (= 0.29.1)
+      decidim-assemblies (= 0.29.1)
+      decidim-blogs (= 0.29.1)
+      decidim-budgets (= 0.29.1)
+      decidim-comments (= 0.29.1)
+      decidim-core (= 0.29.1)
+      decidim-debates (= 0.29.1)
+      decidim-forms (= 0.29.1)
+      decidim-generators (= 0.29.1)
+      decidim-meetings (= 0.29.1)
+      decidim-pages (= 0.29.1)
+      decidim-participatory_processes (= 0.29.1)
+      decidim-proposals (= 0.29.1)
+      decidim-sortitions (= 0.29.1)
+      decidim-surveys (= 0.29.1)
+      decidim-system (= 0.29.1)
+      decidim-verifications (= 0.29.1)
 
 PATH
   remote: .
