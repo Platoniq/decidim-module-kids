@@ -13,6 +13,7 @@ require_relative "#{base_path}lib/decidim/kids/version"
 DECIDIM_VERSION = Decidim::Kids::DECIDIM_VERSION
 
 gem "decidim", git: "https://github.com/platoniq/decidim", branch: "fix/generator_set_cache_classes_with_env"
+gem "decidim-generators", git: "https://github.com/platoniq/decidim", branch: "fix/generator_set_cache_classes_with_env", glob: "decidim-generators/decidim-generators.gemspec"
 gem "decidim-kids", path: "."
 
 gem "bootsnap", "~> 1.4"
