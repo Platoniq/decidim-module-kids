@@ -35,7 +35,7 @@ jobs:
       DATABASE_PASSWORD: postgres
       DATABASE_HOST: localhost
       RAILS_ENV: test
-      CACHE_CLASSES: false
+      DECIDIM_CACHE_CLASSES: false
 
     steps:
       - uses: actions/checkout@v2
